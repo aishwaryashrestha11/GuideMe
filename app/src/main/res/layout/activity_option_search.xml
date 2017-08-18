@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/d"
+    android:layout_height="match_parent"
+    tools:context="com.example.aadmin.guidemethree.OptionSearch">
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="389dp"
+        android:layout_height="60dp"
+        android:text="Easy Search"
+        android:background="@color/easy"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="402dp"
+        android:layout_marginLeft="-2dp"
+
+        android:onClick="EasySearch"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="389dp"
+        android:layout_height="60dp"
+        android:text="Manual Search"
+        android:onClick="ManualSearch"
+        android:background="@color/manual"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="462dp"
+        android:layout_marginLeft="-2dp"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+
+</android.support.constraint.ConstraintLayout>

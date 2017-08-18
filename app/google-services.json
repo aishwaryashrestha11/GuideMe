@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "302221095005",
+    "firebase_url": "https://guideme-a51a3.firebaseio.com",
+    "project_id": "guideme-a51a3",
+    "storage_bucket": "guideme-a51a3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:302221095005:android:8f2b3d1ba98d13ba",
+        "android_client_info": {
+          "package_name": "com.example.aadmin.guidemethree"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "302221095005-a36u6jd5utsatedb58tjgm3elnh6mdpl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQCbs4x9EdHN6OOGFf6Ug_C6qCrS2tOpA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

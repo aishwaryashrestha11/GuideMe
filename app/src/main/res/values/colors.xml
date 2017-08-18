@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#01ccce</color>
+    <color name="colorPrimaryDark">#01ccce</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorBackground">#413e4f</color>
+    <color name="colorText">#1a8674</color>
+    117774
+    <color name="easy">#117774</color>
+    <color name="manual">#94b3b2</color>
+    <!--<color name="themeColor">#b09d9d</color>
+        <color name="textColor">#d4cbc7</color>
+        <color name="colorPrimary">#3F51B5</color>
+    -->
+    <color name="themeColor">#01ccce</color>
+
+
+</resources>

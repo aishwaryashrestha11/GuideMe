@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/app_bar"
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        android:background="@drawable/tourist"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.design.widget.CollapsingToolbarLayout
+            android:id="@+id/toolbar_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fitsSystemWindows="true"
+            app:contentScrim="?attr/colorPrimary"
+            app:expandedTitleMarginEnd="64dp"
+            app:expandedTitleMarginStart="48dp"
+            app:layout_scrollFlags="scroll|exitUntilCollapsed">
+
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?android:attr/actionBarSize"
+                android:minHeight="?android:attr/actionBarSize"
+                app:layout_collapseMode="pin"
+                app:layout_scrollFlags="scroll|exitUntilCollapsed"
+                app:popupTheme="@style/AppTheme.NoActionBar" />
+
+
+
+        </android.support.design.widget.CollapsingToolbarLayout>
+    </android.support.design.widget.AppBarLayout>
+
+    <include layout="@layout/activity_profile_content" />
+
+    <rjsv.floatingmenu.floatingmenubutton.FloatingMenuButton
+        android:id="@+id/my_floating_button"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_margin="@dimen/fab_margin"
+        app:layout_anchor="@id/app_bar"
+        app:layout_anchorGravity="bottom|end"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintHorizontal_bias="0.799"
+        app:layout_constraintVertical_bias="0.373">
+
+        <rjsv.floatingmenu.floatingmenubutton.subbutton.FloatingSubButton
+            android:id="@+id/sub_button_1"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+
+
+            android:background="@drawable/ic_favorite_border_black" />
+
+        <rjsv.floatingmenu.floatingmenubutton.subbutton.FloatingSubButton
+            android:id="@+id/sub_button_2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/ic_star_black" />
+
+
+        <rjsv.floatingmenu.floatingmenubutton.subbutton.FloatingSubButton
+            android:id="@+id/call"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:onClick="callShop"
+            android:background="@drawable/call_icon_hi" />
+
+    </rjsv.floatingmenu.floatingmenubutton.FloatingMenuButton>
+
+
+
+
+
+</android.support.design.widget.CoordinatorLayout>
